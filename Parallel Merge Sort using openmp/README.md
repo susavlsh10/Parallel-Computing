@@ -11,11 +11,11 @@ icc -qopenmp -o sort_list_openmp.exe sort_list_openmp.c
 where k and q are integer arguments that specify the number of elements in the list n = 2^𝑘, and the number of threads p = 2^𝑞.
 
 
-The following graph shows the speedup vs q for different values of n.
+The following graph shows the speedup vs q for different values of k.
 
 ![speedup vs q](https://github.com/susavlsh10/Parallel-Computing/blob/main/Parallel%20Merge%20Sort%20using%20openmp/Speedup.png)
 
-The following graph shows the efficiency vs q for different value of n.
+The following graph shows the efficiency vs q for different value of k.
 
 ![efficiency vs q](https://github.com/susavlsh10/Parallel-Computing/blob/main/Parallel%20Merge%20Sort%20using%20openmp/Efficiency.png)
 
