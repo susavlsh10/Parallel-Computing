@@ -1,6 +1,6 @@
 Parallel Merge Sort using pthreads
 
-![Parallel Merge Sort)(https://github.com/susavlsh10/Parallel-Computing/blob/main/images/MergeSort.png)
+![Parallel Merge Sort](https://github.com/susavlsh10/Parallel-Computing/blob/main/images/MergeSort.png)
 
 
 
