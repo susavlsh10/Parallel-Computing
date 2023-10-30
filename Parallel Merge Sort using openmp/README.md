@@ -14,3 +14,7 @@ where k and q are integer arguments that specify the number of elements in the l
 The following graph shows the speedup vs q for different values of n.
 
 ![speedup vs q](https://github.com/susavlsh10/Parallel-Computing/blob/main/Parallel%20Merge%20Sort%20using%20openmp/Speedup.png)
+
+The following graph shows the efficiency vs q for different value of n.
+
+![efficiency vs q](https://github.com/susavlsh10/Parallel-Computing/blob/main/Parallel%20Merge%20Sort%20using%20openmp/Efficiency.png)
