@@ -22,3 +22,10 @@ The following graph shows the efficiency vs q for different value of n.
 Analysis
 
 The data illustrates the speedup ratios for parallel execution of merge sort using OpenMP, comparing it to sequential execution across various values of k and q. The speedup ratio, defined as single-thread time divided by multi-thread time, displays certain trends. For fixed k, the ratio generally rises with increasing q until it peaks, after which it declines. This suggests that adding more threads enhances performance up to a point, beyond which it introduces inefficiency. Similarly, for a constant q, the speedup ratio typically increases as k grows, emphasizing the benefit of parallelization for larger list sizes. 
+
+The data depicts the efficiency of OpenMP parallel merge sort compared to sequential execution across various k and q values. Efficiency is the speedup ratio divided by the number of threads, indicating how well threads are utilized and the level of overhead incurred. For fixed k, efficiency typically decreases as q increases, indicating that more threads reduce individual thread performance and increase overhead. Conversely, for fixed q, efficiency generally rises with higher k, implying larger list sizes benefit from greater performance per thread and reduced overhead. The graph confirms these trends, showing efficiency declining as q increases and increasing with higher k or list size, aligning with expectations.
+
+
+
+
+
