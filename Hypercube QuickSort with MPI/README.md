@@ -7,6 +7,6 @@ mpiicpc -o qsort_hypercube.exe qsort_hypercube.cpp
 
 To execute the program, use
 
-mpirun –np &ltp&gt ./qsort_hypercube.exe n type
+mpirun –np `&ltp;&gt;` ./qsort_hypercube.exe n type
 
 where p is the number of MPI processes, n is the size of the local list of each MPI process, and type is the method used to initialize the local list.
